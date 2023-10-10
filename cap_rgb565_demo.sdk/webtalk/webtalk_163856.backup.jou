@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Mon May 25 15:47:17 2020
+# Process ID: 163856
+# Current directory: H:/Desktop/PYNQ/Zynq/VIP/ov7725/cap_ov7725_16bit/cap_ov7725_16bit.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: H:/Desktop/PYNQ/Zynq/VIP/ov7725/cap_ov7725_16bit/cap_ov7725_16bit.sdk/webtalk/webtalk.log
+# Journal file: H:/Desktop/PYNQ/Zynq/VIP/ov7725/cap_ov7725_16bit/cap_ov7725_16bit.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

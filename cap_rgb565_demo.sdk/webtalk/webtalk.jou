@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Tue Apr 12 20:05:09 2022
+# Process ID: 52748
+# Current directory: C:/Users/Administrator/Desktop/pynq_test/cap_rgb565_demo/cap_rgb565_demo.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/Administrator/Desktop/pynq_test/cap_rgb565_demo/cap_rgb565_demo.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/pynq_test/cap_rgb565_demo/cap_rgb565_demo.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

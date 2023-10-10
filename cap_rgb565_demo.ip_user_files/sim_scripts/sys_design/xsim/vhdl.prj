@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../../cap_rgb565_demo.gen/sources_1/bd/sys_design/ipshared/ab26/src/axi_dynclk_S00_AXI.vhd" \
+"../../../../cap_rgb565_demo.gen/sources_1/bd/sys_design/ipshared/ab26/src/axi_dynclk.vhd" \
+"../../../bd/sys_design/ip/sys_design_axi_dynclk_0_0/sim/sys_design_axi_dynclk_0_0.vhd" \
+"../../../bd/sys_design/ip/sys_design_axi_smc_0/bd_0/ip/ip_1/sim/bd_ce02_psr_aclk_0.vhd" \
+"../../../bd/sys_design/ip/sys_design_axi_vdma_0_0/sim/sys_design_axi_vdma_0_0.vhd" \
+"../../../bd/sys_design/ip/sys_design_rst_ps7_0_100M_0/sim/sys_design_rst_ps7_0_100M_0.vhd" \
+"../../../bd/sys_design/ip/sys_design_v_tc_0_0/sim/sys_design_v_tc_0_0.vhd" \
+"../../../bd/sys_design/ip/sys_design_axi_bram_ctrl_0_0/sim/sys_design_axi_bram_ctrl_0_0.vhd" \
+
+nosort

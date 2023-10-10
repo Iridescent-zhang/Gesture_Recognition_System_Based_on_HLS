@@ -1,0 +1,8 @@
+20:02:10 **** Incremental Build of configuration Debug for project ov5640_cap_16bit ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+20:02:10 Build Finished (took 204ms)
+
