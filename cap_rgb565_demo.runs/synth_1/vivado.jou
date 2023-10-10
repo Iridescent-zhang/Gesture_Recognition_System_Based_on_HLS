@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Apr  9 14:25:35 2023
+# Process ID: 67084
+# Current directory: D:/Program_File/HLS_Files/cap_rgb565_demo/cap_rgb565_demo.runs/synth_1
+# Command line: vivado.exe -log sys_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sys_design_wrapper.tcl
+# Log file: D:/Program_File/HLS_Files/cap_rgb565_demo/cap_rgb565_demo.runs/synth_1/sys_design_wrapper.vds
+# Journal file: D:/Program_File/HLS_Files/cap_rgb565_demo/cap_rgb565_demo.runs/synth_1\vivado.jou
+# Running On: Iridescent-zlc, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+source sys_design_wrapper.tcl -notrace

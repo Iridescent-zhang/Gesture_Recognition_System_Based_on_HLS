@@ -1,0 +1,71 @@
+
+wire kernel_monitor_reset;
+wire kernel_monitor_clock;
+wire kernel_monitor_report;
+assign kernel_monitor_reset = ~ap_rst_n;
+assign kernel_monitor_clock = ap_clk;
+assign kernel_monitor_report = 1'b0;
+wire [4:0] axis_block_sigs;
+wire [20:0] inst_idle_sigs;
+wire [11:0] inst_block_sigs;
+wire kernel_block;
+
+assign axis_block_sigs[0] = ~AXIvideo2xfMat_24_9_600_1024_1_2_U0.grp_AXIvideo2xfMat_24_9_600_1024_1_2_Pipeline_loop_start_hunt_fu_185.INPUT_STREAM_TDATA_blk_n;
+assign axis_block_sigs[1] = ~AXIvideo2xfMat_24_9_600_1024_1_2_U0.grp_AXIvideo2xfMat_24_9_600_1024_1_2_Pipeline_loop_col_zxi2mat_fu_205.INPUT_STREAM_TDATA_blk_n;
+assign axis_block_sigs[2] = ~AXIvideo2xfMat_24_9_600_1024_1_2_U0.grp_AXIvideo2xfMat_24_9_600_1024_1_2_Pipeline_loop_last_hunt_fu_232.INPUT_STREAM_TDATA_blk_n;
+assign axis_block_sigs[3] = ~xfMat2AXIvideo_24_9_600_1024_1_2_U0.grp_xfMat2AXIvideo_24_9_600_1024_1_2_Pipeline_loop_col_mat2axi_fu_86.OUTPUT_STREAM_VIDEO_TDATA_blk_n;
+assign axis_block_sigs[4] = ~xfMat2AXIvideo_24_9_600_1024_1_2_2_U0.grp_xfMat2AXIvideo_24_9_600_1024_1_2_2_Pipeline_loop_col_mat2axi_fu_86.OUTPUT_STREAM_DIP_TDATA_blk_n;
+
+assign inst_idle_sigs[0] = entry_proc_U0.ap_idle;
+assign inst_block_sigs[0] = (entry_proc_U0.ap_done & ~entry_proc_U0.ap_continue) | ~entry_proc_U0.cb_lower_c_blk_n | ~entry_proc_U0.cb_upper_c_blk_n | ~entry_proc_U0.cr_lower_c_blk_n | ~entry_proc_U0.cr_upper_c_blk_n;
+assign inst_idle_sigs[1] = Block_entry1_proc_U0.ap_idle;
+assign inst_block_sigs[1] = (Block_entry1_proc_U0.ap_done & ~Block_entry1_proc_U0.ap_continue);
+assign inst_idle_sigs[2] = AXIvideo2xfMat_24_9_600_1024_1_2_U0.ap_idle;
+assign inst_block_sigs[2] = (AXIvideo2xfMat_24_9_600_1024_1_2_U0.ap_done & ~AXIvideo2xfMat_24_9_600_1024_1_2_U0.ap_continue) | ~AXIvideo2xfMat_24_9_600_1024_1_2_U0.grp_AXIvideo2xfMat_24_9_600_1024_1_2_Pipeline_loop_col_zxi2mat_fu_205.img_0_data163_blk_n | ~AXIvideo2xfMat_24_9_600_1024_1_2_U0.img_0_rows_c_blk_n | ~AXIvideo2xfMat_24_9_600_1024_1_2_U0.img_0_cols_c_blk_n;
+assign inst_idle_sigs[3] = medianBlur_3_1_9_600_1024_1_2_2_U0.ap_idle;
+assign inst_block_sigs[3] = (medianBlur_3_1_9_600_1024_1_2_2_U0.ap_done & ~medianBlur_3_1_9_600_1024_1_2_2_U0.ap_continue) | ~medianBlur_3_1_9_600_1024_1_2_2_U0.p_src_rows_blk_n | ~medianBlur_3_1_9_600_1024_1_2_2_U0.p_src_cols_blk_n | ~medianBlur_3_1_9_600_1024_1_2_2_U0.grp_xFMedianNxN_600_1024_3_9_1_2_2_0_1025_3_9_s_fu_44.grp_xFMedianNxN_600_1024_3_9_1_2_2_0_1025_3_9_Pipeline_VITIS_LOOP_423_2_fu_141.img_0_data163_blk_n | ~medianBlur_3_1_9_600_1024_1_2_2_U0.grp_xFMedianNxN_600_1024_3_9_1_2_2_0_1025_3_9_s_fu_44.grp_xFMedianNxN_600_1024_3_9_1_2_2_0_1025_3_9_Pipeline_Col_Loop_fu_161.img_0_data163_blk_n | ~medianBlur_3_1_9_600_1024_1_2_2_U0.grp_xFMedianNxN_600_1024_3_9_1_2_2_0_1025_3_9_s_fu_44.grp_xFMedianNxN_600_1024_3_9_1_2_2_0_1025_3_9_Pipeline_Col_Loop_fu_161.img_1_data164_blk_n;
+assign inst_idle_sigs[4] = ImgProcess_9_0_600_1024_1_2_U0.ap_idle;
+assign inst_block_sigs[4] = (ImgProcess_9_0_600_1024_1_2_U0.ap_done & ~ImgProcess_9_0_600_1024_1_2_U0.ap_continue) | ~ImgProcess_9_0_600_1024_1_2_U0.grp_ImgProcess_9_0_600_1024_1_2_Pipeline_loop_color_rows_loop_color_cols_fu_80.img_1_data164_blk_n | ~ImgProcess_9_0_600_1024_1_2_U0.grp_ImgProcess_9_0_600_1024_1_2_Pipeline_loop_color_rows_loop_color_cols_fu_80.img_2_data165_blk_n | ~ImgProcess_9_0_600_1024_1_2_U0.cb_lower_blk_n | ~ImgProcess_9_0_600_1024_1_2_U0.cb_upper_blk_n | ~ImgProcess_9_0_600_1024_1_2_U0.cr_lower_blk_n | ~ImgProcess_9_0_600_1024_1_2_U0.cr_upper_blk_n;
+assign inst_idle_sigs[5] = erode_0_0_600_1024_0_3_3_1_1_2_2_U0.ap_idle;
+assign inst_block_sigs[5] = (erode_0_0_600_1024_0_3_3_1_1_2_2_U0.ap_done & ~erode_0_0_600_1024_0_3_3_1_1_2_2_U0.ap_continue) | ~erode_0_0_600_1024_0_3_3_1_1_2_2_U0.grp_xferode_600_1024_1_0_1_2_2_0_1025_3_3_s_fu_34.grp_xferode_600_1024_1_0_1_2_2_0_1025_3_3_Pipeline_Col_Loop_fu_155.img_2_data165_blk_n | ~erode_0_0_600_1024_0_3_3_1_1_2_2_U0.grp_xferode_600_1024_1_0_1_2_2_0_1025_3_3_s_fu_34.grp_xferode_600_1024_1_0_1_2_2_0_1025_3_3_Pipeline_VITIS_LOOP_298_2_fu_146.img_2_data165_blk_n | ~erode_0_0_600_1024_0_3_3_1_1_2_2_U0.grp_xferode_600_1024_1_0_1_2_2_0_1025_3_3_s_fu_34.grp_xferode_600_1024_1_0_1_2_2_0_1025_3_3_Pipeline_Col_Loop_fu_155.img_3_data166_blk_n;
+assign inst_idle_sigs[6] = dilate_0_0_600_1024_0_3_3_1_1_2_2_U0.ap_idle;
+assign inst_block_sigs[6] = (dilate_0_0_600_1024_0_3_3_1_1_2_2_U0.ap_done & ~dilate_0_0_600_1024_0_3_3_1_1_2_2_U0.ap_continue) | ~dilate_0_0_600_1024_0_3_3_1_1_2_2_U0.grp_xfdilate_600_1024_1_0_1_2_2_0_1025_3_3_s_fu_34.grp_xfdilate_600_1024_1_0_1_2_2_0_1025_3_3_Pipeline_VITIS_LOOP_294_2_fu_146.img_3_data166_blk_n | ~dilate_0_0_600_1024_0_3_3_1_1_2_2_U0.grp_xfdilate_600_1024_1_0_1_2_2_0_1025_3_3_s_fu_34.grp_xfdilate_600_1024_1_0_1_2_2_0_1025_3_3_Pipeline_Col_Loop_fu_155.img_3_data166_blk_n | ~dilate_0_0_600_1024_0_3_3_1_1_2_2_U0.grp_xfdilate_600_1024_1_0_1_2_2_0_1025_3_3_s_fu_34.grp_xfdilate_600_1024_1_0_1_2_2_0_1025_3_3_Pipeline_Col_Loop_fu_155.img_4_data167_blk_n;
+assign inst_idle_sigs[7] = duplicateMat_0_600_1024_1_2_2_2_U0.ap_idle;
+assign inst_block_sigs[7] = (duplicateMat_0_600_1024_1_2_2_2_U0.ap_done & ~duplicateMat_0_600_1024_1_2_2_2_U0.ap_continue) | ~duplicateMat_0_600_1024_1_2_2_2_U0.grp_duplicateMat_0_600_1024_1_2_2_2_Pipeline_Col_Loop_fu_56.img_4_data167_blk_n | ~duplicateMat_0_600_1024_1_2_2_2_U0.grp_duplicateMat_0_600_1024_1_2_2_2_Pipeline_Col_Loop_fu_56.img_4a_data168_blk_n | ~duplicateMat_0_600_1024_1_2_2_2_U0.grp_duplicateMat_0_600_1024_1_2_2_2_Pipeline_Col_Loop_fu_56.img_4b_data169_blk_n;
+assign inst_idle_sigs[8] = gray2rgb_0_9_600_1024_1_2_2_U0.ap_idle;
+assign inst_block_sigs[8] = (gray2rgb_0_9_600_1024_1_2_2_U0.ap_done & ~gray2rgb_0_9_600_1024_1_2_2_U0.ap_continue) | ~gray2rgb_0_9_600_1024_1_2_2_U0.grp_gray2rgb_0_9_600_1024_1_2_2_Pipeline_columnloop_fu_54.img_4a_data168_blk_n | ~gray2rgb_0_9_600_1024_1_2_2_U0.grp_gray2rgb_0_9_600_1024_1_2_2_Pipeline_columnloop_fu_54.img_5_data170_blk_n;
+assign inst_idle_sigs[9] = gray2rgb_0_9_600_1024_1_2_2_1_U0.ap_idle;
+assign inst_block_sigs[9] = (gray2rgb_0_9_600_1024_1_2_2_1_U0.ap_done & ~gray2rgb_0_9_600_1024_1_2_2_1_U0.ap_continue) | ~gray2rgb_0_9_600_1024_1_2_2_1_U0.grp_gray2rgb_0_9_600_1024_1_2_2_1_Pipeline_columnloop_fu_54.img_4b_data169_blk_n | ~gray2rgb_0_9_600_1024_1_2_2_1_U0.grp_gray2rgb_0_9_600_1024_1_2_2_1_Pipeline_columnloop_fu_54.img_6_data171_blk_n;
+assign inst_idle_sigs[10] = xfMat2AXIvideo_24_9_600_1024_1_2_U0.ap_idle;
+assign inst_block_sigs[10] = (xfMat2AXIvideo_24_9_600_1024_1_2_U0.ap_done & ~xfMat2AXIvideo_24_9_600_1024_1_2_U0.ap_continue) | ~xfMat2AXIvideo_24_9_600_1024_1_2_U0.grp_xfMat2AXIvideo_24_9_600_1024_1_2_Pipeline_loop_col_mat2axi_fu_86.img_5_data170_blk_n;
+assign inst_idle_sigs[11] = xfMat2AXIvideo_24_9_600_1024_1_2_2_U0.ap_idle;
+assign inst_block_sigs[11] = (xfMat2AXIvideo_24_9_600_1024_1_2_2_U0.ap_done & ~xfMat2AXIvideo_24_9_600_1024_1_2_2_U0.ap_continue) | ~xfMat2AXIvideo_24_9_600_1024_1_2_2_U0.grp_xfMat2AXIvideo_24_9_600_1024_1_2_2_Pipeline_loop_col_mat2axi_fu_86.img_6_data171_blk_n;
+
+assign inst_idle_sigs[12] = 1'b0;
+assign inst_idle_sigs[13] = AXIvideo2xfMat_24_9_600_1024_1_2_U0.ap_idle;
+assign inst_idle_sigs[14] = AXIvideo2xfMat_24_9_600_1024_1_2_U0.grp_AXIvideo2xfMat_24_9_600_1024_1_2_Pipeline_loop_start_hunt_fu_185.ap_idle;
+assign inst_idle_sigs[15] = AXIvideo2xfMat_24_9_600_1024_1_2_U0.grp_AXIvideo2xfMat_24_9_600_1024_1_2_Pipeline_loop_col_zxi2mat_fu_205.ap_idle;
+assign inst_idle_sigs[16] = AXIvideo2xfMat_24_9_600_1024_1_2_U0.grp_AXIvideo2xfMat_24_9_600_1024_1_2_Pipeline_loop_last_hunt_fu_232.ap_idle;
+assign inst_idle_sigs[17] = xfMat2AXIvideo_24_9_600_1024_1_2_U0.ap_idle;
+assign inst_idle_sigs[18] = xfMat2AXIvideo_24_9_600_1024_1_2_U0.grp_xfMat2AXIvideo_24_9_600_1024_1_2_Pipeline_loop_col_mat2axi_fu_86.ap_idle;
+assign inst_idle_sigs[19] = xfMat2AXIvideo_24_9_600_1024_1_2_2_U0.ap_idle;
+assign inst_idle_sigs[20] = xfMat2AXIvideo_24_9_600_1024_1_2_2_U0.grp_xfMat2AXIvideo_24_9_600_1024_1_2_2_Pipeline_loop_col_mat2axi_fu_86.ap_idle;
+
+color_analysis_hls_deadlock_idx0_monitor color_analysis_hls_deadlock_idx0_monitor_U (
+    .clock(kernel_monitor_clock),
+    .reset(kernel_monitor_reset),
+    .axis_block_sigs(axis_block_sigs),
+    .inst_idle_sigs(inst_idle_sigs),
+    .inst_block_sigs(inst_block_sigs),
+    .block(kernel_block)
+);
+
+
+always @ (kernel_block or kernel_monitor_reset) begin
+    if (kernel_block == 1'b1 && kernel_monitor_reset == 1'b0) begin
+        find_kernel_block = 1'b1;
+    end
+    else begin
+        find_kernel_block = 1'b0;
+    end
+end

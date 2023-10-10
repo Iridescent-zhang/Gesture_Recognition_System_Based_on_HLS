@@ -1,0 +1,968 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr  7 12:55:14 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_Test_area_prmter_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of sys_design_Test_area_prmter_0_0 from xilinx.com:hls:Test_area_prmter:1.4 (Rev. 2112976855) to xilinx.com:hls:Test_area_prmter:1.5 (Rev. 2112976973)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'sys_design_Test_area_prmter_0_0'.
+
+
+-Upgrade has added interface 'result_PORTA' (xilinx.com:interface:bram:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'sys_design_Test_area_prmter_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'result_address0'
+
+-Upgrade has removed port 'result_ce0'
+
+-Upgrade has removed port 'result_d0'
+
+-Upgrade has removed port 'result_q0'
+
+-Upgrade has removed port 'result_we0'
+
+-Upgrade has added port 'result_Addr_A'
+
+-Upgrade has added port 'result_Clk_A'
+
+-Upgrade has added port 'result_Din_A'
+
+-Upgrade has added port 'result_Dout_A'
+
+-Upgrade has added port 'result_EN_A'
+
+-Upgrade has added port 'result_Rst_A'
+
+-Upgrade has added port 'result_WEN_A'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr  7 10:57:06 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_Test_area_prmter_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of sys_design_Test_area_prmter_0_0 from xilinx.com:hls:Test_area_prmter:1.3 (Rev. 2112976153) to xilinx.com:hls:Test_area_prmter:1.4 (Rev. 2112976855)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'sys_design_Test_area_prmter_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'result_address0' width 6 differs from original width 1
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr  6 23:15:18 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_Test_area_prmter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sys_design_Test_area_prmter_0_0 from xilinx.com:hls:Test_area_prmter:1.2 (Rev. 2112976088) to xilinx.com:hls:Test_area_prmter:1.3 (Rev. 2112976153)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr  6 22:09:08 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_Test_area_prmter_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of sys_design_Test_area_prmter_0_0 from xilinx.com:hls:Test_area_prmter:1.1 (Rev. 2112975882) to xilinx.com:hls:Test_area_prmter:1.2 (Rev. 2112976088)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'sys_design_Test_area_prmter_0_0'.
+
+
+-Upgrade has removed interface 'm_axi_RESULT'
+
+-Upgrade has removed interface 's_axi_control'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'sys_design_Test_area_prmter_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'm_axi_RESULT_ARADDR'
+
+-Upgrade has removed port 'm_axi_RESULT_ARBURST'
+
+-Upgrade has removed port 'm_axi_RESULT_ARCACHE'
+
+-Upgrade has removed port 'm_axi_RESULT_ARID'
+
+-Upgrade has removed port 'm_axi_RESULT_ARLEN'
+
+-Upgrade has removed port 'm_axi_RESULT_ARLOCK'
+
+-Upgrade has removed port 'm_axi_RESULT_ARPROT'
+
+-Upgrade has removed port 'm_axi_RESULT_ARQOS'
+
+-Upgrade has removed port 'm_axi_RESULT_ARREADY'
+
+-Upgrade has removed port 'm_axi_RESULT_ARREGION'
+
+-Upgrade has removed port 'm_axi_RESULT_ARSIZE'
+
+-Upgrade has removed port 'm_axi_RESULT_ARVALID'
+
+-Upgrade has removed port 'm_axi_RESULT_AWADDR'
+
+-Upgrade has removed port 'm_axi_RESULT_AWBURST'
+
+-Upgrade has removed port 'm_axi_RESULT_AWCACHE'
+
+-Upgrade has removed port 'm_axi_RESULT_AWID'
+
+-Upgrade has removed port 'm_axi_RESULT_AWLEN'
+
+-Upgrade has removed port 'm_axi_RESULT_AWLOCK'
+
+-Upgrade has removed port 'm_axi_RESULT_AWPROT'
+
+-Upgrade has removed port 'm_axi_RESULT_AWQOS'
+
+-Upgrade has removed port 'm_axi_RESULT_AWREADY'
+
+-Upgrade has removed port 'm_axi_RESULT_AWREGION'
+
+-Upgrade has removed port 'm_axi_RESULT_AWSIZE'
+
+-Upgrade has removed port 'm_axi_RESULT_AWVALID'
+
+-Upgrade has removed port 'm_axi_RESULT_BID'
+
+-Upgrade has removed port 'm_axi_RESULT_BREADY'
+
+-Upgrade has removed port 'm_axi_RESULT_BRESP'
+
+-Upgrade has removed port 'm_axi_RESULT_BVALID'
+
+-Upgrade has removed port 'm_axi_RESULT_RDATA'
+
+-Upgrade has removed port 'm_axi_RESULT_RID'
+
+-Upgrade has removed port 'm_axi_RESULT_RLAST'
+
+-Upgrade has removed port 'm_axi_RESULT_RREADY'
+
+-Upgrade has removed port 'm_axi_RESULT_RRESP'
+
+-Upgrade has removed port 'm_axi_RESULT_RVALID'
+
+-Upgrade has removed port 'm_axi_RESULT_WDATA'
+
+-Upgrade has removed port 'm_axi_RESULT_WID'
+
+-Upgrade has removed port 'm_axi_RESULT_WLAST'
+
+-Upgrade has removed port 'm_axi_RESULT_WREADY'
+
+-Upgrade has removed port 'm_axi_RESULT_WSTRB'
+
+-Upgrade has removed port 'm_axi_RESULT_WVALID'
+
+-Upgrade has removed port 's_axi_control_ARADDR'
+
+-Upgrade has removed port 's_axi_control_ARREADY'
+
+-Upgrade has removed port 's_axi_control_ARVALID'
+
+-Upgrade has removed port 's_axi_control_AWADDR'
+
+-Upgrade has removed port 's_axi_control_AWREADY'
+
+-Upgrade has removed port 's_axi_control_AWVALID'
+
+-Upgrade has removed port 's_axi_control_BREADY'
+
+-Upgrade has removed port 's_axi_control_BRESP'
+
+-Upgrade has removed port 's_axi_control_BVALID'
+
+-Upgrade has removed port 's_axi_control_RDATA'
+
+-Upgrade has removed port 's_axi_control_RREADY'
+
+-Upgrade has removed port 's_axi_control_RRESP'
+
+-Upgrade has removed port 's_axi_control_RVALID'
+
+-Upgrade has removed port 's_axi_control_WDATA'
+
+-Upgrade has removed port 's_axi_control_WREADY'
+
+-Upgrade has removed port 's_axi_control_WSTRB'
+
+-Upgrade has removed port 's_axi_control_WVALID'
+
+-Upgrade has added port 'result_address0'
+
+-Upgrade has added port 'result_ce0'
+
+-Upgrade has added port 'result_d0'
+
+-Upgrade has added port 'result_q0'
+
+-Upgrade has added port 'result_we0'
+
+
+4. Addressing Information
+-------------------------
+
+Detected addressing differences while upgrading 'sys_design_Test_area_prmter_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed address block 's_axi_control/Reg'
+
+-Upgrade has removed address space 'Data_m_axi_RESULT'
+
+
+5. Customization warnings
+-------------------------
+
+Parameter 'C_M_AXI_RESULT_ENABLE_ID_PORTS' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to 'true'
+
+Parameter 'C_M_AXI_RESULT_ID_WIDTH' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_RESULT_DATA_WIDTH' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '32'
+
+Parameter 'C_M_AXI_RESULT_ENABLE_USER_PORTS' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to 'false'
+
+Parameter 'C_M_AXI_RESULT_AWUSER_WIDTH' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_RESULT_WUSER_WIDTH' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_RESULT_BUSER_WIDTH' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_RESULT_ARUSER_WIDTH' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_RESULT_RUSER_WIDTH' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '1'
+
+Parameter 'C_M_AXI_RESULT_USER_VALUE' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '0x00000000'
+
+Parameter 'C_M_AXI_RESULT_PROT_VALUE' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '"000"'
+
+Parameter 'C_M_AXI_RESULT_CACHE_VALUE' is no longer present on the upgraded IP 'sys_design_Test_area_prmter_0_0', and cannot be set to '"0011"'
+
+
+6. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:hls:Test_area_prmter:1.2 -user_name sys_design_Test_area_prmter_0_0
+set_property -dict "\
+  CONFIG.Component_Name {sys_design_Test_area_prmter_0_0} \
+  CONFIG.II {x} \
+  CONFIG.INPUT_STREAM.CLK_DOMAIN {sys_design_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.INPUT_STREAM.FREQ_HZ {100000000} \
+  CONFIG.INPUT_STREAM.HAS_TKEEP {1} \
+  CONFIG.INPUT_STREAM.HAS_TLAST {1} \
+  CONFIG.INPUT_STREAM.HAS_TREADY {1} \
+  CONFIG.INPUT_STREAM.HAS_TSTRB {1} \
+  CONFIG.INPUT_STREAM.INSERT_VIP {0} \
+  CONFIG.INPUT_STREAM.LAYERED_METADATA {} \
+  CONFIG.INPUT_STREAM.PHASE {0.0} \
+  CONFIG.INPUT_STREAM.TDATA_NUM_BYTES {3} \
+  CONFIG.INPUT_STREAM.TDEST_WIDTH {1} \
+  CONFIG.INPUT_STREAM.TID_WIDTH {1} \
+  CONFIG.INPUT_STREAM.TUSER_WIDTH {1} \
+  CONFIG.ap_clk.ASSOCIATED_BUSIF {s_axi_CONTROL_BUS:s_axi_control:m_axi_RESULT:INPUT_STREAM} \
+  CONFIG.ap_clk.ASSOCIATED_PORT {} \
+  CONFIG.ap_clk.ASSOCIATED_RESET {ap_rst_n} \
+  CONFIG.ap_clk.CLK_DOMAIN {sys_design_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.ap_clk.FREQ_HZ {100000000} \
+  CONFIG.ap_clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.ap_clk.INSERT_VIP {0} \
+  CONFIG.ap_clk.PHASE {0.0} \
+  CONFIG.ap_rst_n.INSERT_VIP {0} \
+  CONFIG.ap_rst_n.POLARITY {ACTIVE_LOW} \
+  CONFIG.clk_period {10} \
+  CONFIG.combinational {0} \
+  CONFIG.interrupt.PortWidth {1} \
+  CONFIG.interrupt.SENSITIVITY {LEVEL_HIGH} \
+  CONFIG.latency {621003} \
+  CONFIG.machine {64} \
+  CONFIG.s_axi_CONTROL_BUS.ADDR_WIDTH {4} \
+  CONFIG.s_axi_CONTROL_BUS.ARUSER_WIDTH {0} \
+  CONFIG.s_axi_CONTROL_BUS.AWUSER_WIDTH {0} \
+  CONFIG.s_axi_CONTROL_BUS.BUSER_WIDTH {0} \
+  CONFIG.s_axi_CONTROL_BUS.CLK_DOMAIN {sys_design_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.s_axi_CONTROL_BUS.DATA_WIDTH {32} \
+  CONFIG.s_axi_CONTROL_BUS.FREQ_HZ {100000000} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_BRESP {1} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_BURST {0} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_CACHE {0} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_LOCK {0} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_PROT {0} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_QOS {0} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_REGION {0} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_RRESP {1} \
+  CONFIG.s_axi_CONTROL_BUS.HAS_WSTRB {1} \
+  CONFIG.s_axi_CONTROL_BUS.ID_WIDTH {0} \
+  CONFIG.s_axi_CONTROL_BUS.INSERT_VIP {0} \
+  CONFIG.s_axi_CONTROL_BUS.MAX_BURST_LENGTH {1} \
+  CONFIG.s_axi_CONTROL_BUS.NUM_READ_OUTSTANDING {1} \
+  CONFIG.s_axi_CONTROL_BUS.NUM_READ_THREADS {1} \
+  CONFIG.s_axi_CONTROL_BUS.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.s_axi_CONTROL_BUS.NUM_WRITE_THREADS {1} \
+  CONFIG.s_axi_CONTROL_BUS.PHASE {0.0} \
+  CONFIG.s_axi_CONTROL_BUS.PROTOCOL {AXI4LITE} \
+  CONFIG.s_axi_CONTROL_BUS.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.s_axi_CONTROL_BUS.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_CONTROL_BUS.RUSER_WIDTH {0} \
+  CONFIG.s_axi_CONTROL_BUS.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.s_axi_CONTROL_BUS.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_CONTROL_BUS.WUSER_WIDTH {0} " [get_ips sys_design_Test_area_prmter_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr  6 18:43:29 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_color_analysis_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sys_design_color_analysis_0_0 from xilinx.com:hls:color_analysis:1.4 (Rev. 2112972963) to xilinx.com:hls:color_analysis:1.5 (Rev. 2112975881)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr  6 18:43:29 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_Test_area_prmter_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of sys_design_Test_area_prmter_0_0 from xilinx.com:hls:Test_area_prmter:1.0 (Rev. 2112974192) to xilinx.com:hls:Test_area_prmter:1.1 (Rev. 2112975882)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'sys_design_Test_area_prmter_0_0'.
+
+
+-Upgrade has added interface 'm_axi_RESULT' (xilinx.com:interface:aximm:1.0)
+
+-Upgrade has added interface 's_axi_control' (xilinx.com:interface:aximm:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'sys_design_Test_area_prmter_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_CONTROL_BUS_ARADDR' width 4 differs from original width 6
+
+-Upgraded port 's_axi_CONTROL_BUS_AWADDR' width 4 differs from original width 6
+
+-Upgrade has removed port 'led'
+
+-Upgrade has added port 'm_axi_RESULT_ARADDR'
+
+-Upgrade has added port 'm_axi_RESULT_ARBURST'
+
+-Upgrade has added port 'm_axi_RESULT_ARCACHE'
+
+-Upgrade has added port 'm_axi_RESULT_ARID'
+
+-Upgrade has added port 'm_axi_RESULT_ARLEN'
+
+-Upgrade has added port 'm_axi_RESULT_ARLOCK'
+
+-Upgrade has added port 'm_axi_RESULT_ARPROT'
+
+-Upgrade has added port 'm_axi_RESULT_ARQOS'
+
+-Upgrade has added port 'm_axi_RESULT_ARREADY'
+
+-Upgrade has added port 'm_axi_RESULT_ARREGION'
+
+-Upgrade has added port 'm_axi_RESULT_ARSIZE'
+
+-Upgrade has added port 'm_axi_RESULT_ARVALID'
+
+-Upgrade has added port 'm_axi_RESULT_AWADDR'
+
+-Upgrade has added port 'm_axi_RESULT_AWBURST'
+
+-Upgrade has added port 'm_axi_RESULT_AWCACHE'
+
+-Upgrade has added port 'm_axi_RESULT_AWID'
+
+-Upgrade has added port 'm_axi_RESULT_AWLEN'
+
+-Upgrade has added port 'm_axi_RESULT_AWLOCK'
+
+-Upgrade has added port 'm_axi_RESULT_AWPROT'
+
+-Upgrade has added port 'm_axi_RESULT_AWQOS'
+
+-Upgrade has added port 'm_axi_RESULT_AWREADY'
+
+-Upgrade has added port 'm_axi_RESULT_AWREGION'
+
+-Upgrade has added port 'm_axi_RESULT_AWSIZE'
+
+-Upgrade has added port 'm_axi_RESULT_AWVALID'
+
+-Upgrade has added port 'm_axi_RESULT_BID'
+
+-Upgrade has added port 'm_axi_RESULT_BREADY'
+
+-Upgrade has added port 'm_axi_RESULT_BRESP'
+
+-Upgrade has added port 'm_axi_RESULT_BVALID'
+
+-Upgrade has added port 'm_axi_RESULT_RDATA'
+
+-Upgrade has added port 'm_axi_RESULT_RID'
+
+-Upgrade has added port 'm_axi_RESULT_RLAST'
+
+-Upgrade has added port 'm_axi_RESULT_RREADY'
+
+-Upgrade has added port 'm_axi_RESULT_RRESP'
+
+-Upgrade has added port 'm_axi_RESULT_RVALID'
+
+-Upgrade has added port 'm_axi_RESULT_WDATA'
+
+-Upgrade has added port 'm_axi_RESULT_WID'
+
+-Upgrade has added port 'm_axi_RESULT_WLAST'
+
+-Upgrade has added port 'm_axi_RESULT_WREADY'
+
+-Upgrade has added port 'm_axi_RESULT_WSTRB'
+
+-Upgrade has added port 'm_axi_RESULT_WVALID'
+
+-Upgrade has added port 's_axi_control_ARADDR'
+
+-Upgrade has added port 's_axi_control_ARREADY'
+
+-Upgrade has added port 's_axi_control_ARVALID'
+
+-Upgrade has added port 's_axi_control_AWADDR'
+
+-Upgrade has added port 's_axi_control_AWREADY'
+
+-Upgrade has added port 's_axi_control_AWVALID'
+
+-Upgrade has added port 's_axi_control_BREADY'
+
+-Upgrade has added port 's_axi_control_BRESP'
+
+-Upgrade has added port 's_axi_control_BVALID'
+
+-Upgrade has added port 's_axi_control_RDATA'
+
+-Upgrade has added port 's_axi_control_RREADY'
+
+-Upgrade has added port 's_axi_control_RRESP'
+
+-Upgrade has added port 's_axi_control_RVALID'
+
+-Upgrade has added port 's_axi_control_WDATA'
+
+-Upgrade has added port 's_axi_control_WREADY'
+
+-Upgrade has added port 's_axi_control_WSTRB'
+
+-Upgrade has added port 's_axi_control_WVALID'
+
+
+4. Addressing Information
+-------------------------
+
+Detected addressing differences while upgrading 'sys_design_Test_area_prmter_0_0'. These changes may impact your design.
+
+
+-Upgrade has added address block 's_axi_control/Reg'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  5 14:35:20 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_v_vid_in_axi4s_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sys_design_v_vid_in_axi4s_0_0 from xilinx.com:ip:v_vid_in_axi4s:4.0 (Rev. 9) to xilinx.com:ip:v_vid_in_axi4s:5.0 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  5 14:35:20 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_v_tc_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of sys_design_v_tc_0_0 from xilinx.com:ip:v_tc:6.1 (Rev. 13) to xilinx.com:ip:v_tc:6.2 (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'sys_design_v_tc_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'sof_state'
+
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'GEN_F0_VSYNC_HSTART' from '640' to '1280' has been ignored for IP 'sys_design_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F0_VSYNC_HEND' from '695' to '1280' has been ignored for IP 'sys_design_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F0_VBLANK_HSTART' from '640' to '1280' has been ignored for IP 'sys_design_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F0_VBLANK_HEND' from '640' to '1280' has been ignored for IP 'sys_design_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F1_VSYNC_HSTART' from '695' to '1280' has been ignored for IP 'sys_design_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F1_VSYNC_HEND' from '695' to '1280' has been ignored for IP 'sys_design_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F1_VBLANK_HSTART' from '640' to '1280' has been ignored for IP 'sys_design_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F1_VBLANK_HEND' from '640' to '1280' has been ignored for IP 'sys_design_v_tc_0_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:v_tc:6.2 -user_name sys_design_v_tc_0_0
+set_property -dict "\
+  CONFIG.C_FAMILY {virtex7} \
+  CONFIG.Component_Name {sys_design_v_tc_0_0} \
+  CONFIG.DET_FIELDID_EN {false} \
+  CONFIG.FSYNC_HSTART0 {0} \
+  CONFIG.FSYNC_HSTART1 {0} \
+  CONFIG.FSYNC_HSTART10 {0} \
+  CONFIG.FSYNC_HSTART11 {0} \
+  CONFIG.FSYNC_HSTART12 {0} \
+  CONFIG.FSYNC_HSTART13 {0} \
+  CONFIG.FSYNC_HSTART14 {0} \
+  CONFIG.FSYNC_HSTART15 {0} \
+  CONFIG.FSYNC_HSTART2 {0} \
+  CONFIG.FSYNC_HSTART3 {0} \
+  CONFIG.FSYNC_HSTART4 {0} \
+  CONFIG.FSYNC_HSTART5 {0} \
+  CONFIG.FSYNC_HSTART6 {0} \
+  CONFIG.FSYNC_HSTART7 {0} \
+  CONFIG.FSYNC_HSTART8 {0} \
+  CONFIG.FSYNC_HSTART9 {0} \
+  CONFIG.FSYNC_VSTART0 {0} \
+  CONFIG.FSYNC_VSTART1 {0} \
+  CONFIG.FSYNC_VSTART10 {0} \
+  CONFIG.FSYNC_VSTART11 {0} \
+  CONFIG.FSYNC_VSTART12 {0} \
+  CONFIG.FSYNC_VSTART13 {0} \
+  CONFIG.FSYNC_VSTART14 {0} \
+  CONFIG.FSYNC_VSTART15 {0} \
+  CONFIG.FSYNC_VSTART2 {0} \
+  CONFIG.FSYNC_VSTART3 {0} \
+  CONFIG.FSYNC_VSTART4 {0} \
+  CONFIG.FSYNC_VSTART5 {0} \
+  CONFIG.FSYNC_VSTART6 {0} \
+  CONFIG.FSYNC_VSTART7 {0} \
+  CONFIG.FSYNC_VSTART8 {0} \
+  CONFIG.FSYNC_VSTART9 {0} \
+  CONFIG.GEN_ACHROMA_POLARITY {High} \
+  CONFIG.GEN_AVIDEO_POLARITY {High} \
+  CONFIG.GEN_CPARITY {0} \
+  CONFIG.GEN_F0_VBLANK_HEND {1280} \
+  CONFIG.GEN_F0_VBLANK_HSTART {1280} \
+  CONFIG.GEN_F0_VFRAME_SIZE {750} \
+  CONFIG.GEN_F0_VSYNC_HEND {1280} \
+  CONFIG.GEN_F0_VSYNC_HSTART {1280} \
+  CONFIG.GEN_F0_VSYNC_VEND {729} \
+  CONFIG.GEN_F0_VSYNC_VSTART {724} \
+  CONFIG.GEN_F1_VBLANK_HEND {1280} \
+  CONFIG.GEN_F1_VBLANK_HSTART {1280} \
+  CONFIG.GEN_F1_VFRAME_SIZE {750} \
+  CONFIG.GEN_F1_VSYNC_HEND {1280} \
+  CONFIG.GEN_F1_VSYNC_HSTART {1280} \
+  CONFIG.GEN_F1_VSYNC_VEND {729} \
+  CONFIG.GEN_F1_VSYNC_VSTART {724} \
+  CONFIG.GEN_FIELDID_EN {false} \
+  CONFIG.GEN_FIELDID_POLARITY {High} \
+  CONFIG.GEN_HACTIVE_SIZE {1280} \
+  CONFIG.GEN_HBLANK_POLARITY {High} \
+  CONFIG.GEN_HFRAME_SIZE {1650} \
+  CONFIG.GEN_HSYNC_END {1430} \
+  CONFIG.GEN_HSYNC_POLARITY {High} \
+  CONFIG.GEN_HSYNC_START {1390} \
+  CONFIG.GEN_INTERLACED {false} \
+  CONFIG.GEN_VACTIVE_SIZE {720} \
+  CONFIG.GEN_VBLANK_POLARITY {High} \
+  CONFIG.GEN_VIDEO_FORMAT {RGB} \
+  CONFIG.GEN_VSYNC_POLARITY {High} \
+  CONFIG.HAS_AXI4_LITE {true} \
+  CONFIG.HAS_INTC_IF {false} \
+  CONFIG.INTERLACE_EN {false} \
+  CONFIG.IRQ.PortWidth {1} \
+  CONFIG.IRQ.SENSITIVITY {LEVEL_HIGH} \
+  CONFIG.SYNC_EN {false} \
+  CONFIG.VIDEO_MODE {720p} \
+  CONFIG.active_chroma_detection {false} \
+  CONFIG.active_chroma_generation {false} \
+  CONFIG.active_video_detection {true} \
+  CONFIG.active_video_generation {true} \
+  CONFIG.auto_generation_mode {false} \
+  CONFIG.clk_intf.ASSOCIATED_BUSIF {vtiming_in:vtiming_out} \
+  CONFIG.clk_intf.ASSOCIATED_CLKEN {clken} \
+  CONFIG.clk_intf.ASSOCIATED_RESET {resetn} \
+  CONFIG.clk_intf.CLK_DOMAIN {sys_design_axi_dynclk_0_0_PXL_CLK_O} \
+  CONFIG.clk_intf.FREQ_HZ {74250000} \
+  CONFIG.clk_intf.INSERT_VIP {0} \
+  CONFIG.clk_intf.PHASE {0.000} \
+  CONFIG.clken_intf.POLARITY {ACTIVE_LOW} \
+  CONFIG.ctrl.ADDR_WIDTH {9} \
+  CONFIG.ctrl.ARUSER_WIDTH {0} \
+  CONFIG.ctrl.AWUSER_WIDTH {0} \
+  CONFIG.ctrl.BUSER_WIDTH {0} \
+  CONFIG.ctrl.CLK_DOMAIN {sys_design_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.ctrl.DATA_WIDTH {32} \
+  CONFIG.ctrl.FREQ_HZ {100000000} \
+  CONFIG.ctrl.HAS_BRESP {1} \
+  CONFIG.ctrl.HAS_BURST {0} \
+  CONFIG.ctrl.HAS_CACHE {0} \
+  CONFIG.ctrl.HAS_LOCK {0} \
+  CONFIG.ctrl.HAS_PROT {0} \
+  CONFIG.ctrl.HAS_QOS {0} \
+  CONFIG.ctrl.HAS_REGION {0} \
+  CONFIG.ctrl.HAS_RRESP {1} \
+  CONFIG.ctrl.HAS_WSTRB {1} \
+  CONFIG.ctrl.ID_WIDTH {0} \
+  CONFIG.ctrl.INSERT_VIP {0} \
+  CONFIG.ctrl.MAX_BURST_LENGTH {1} \
+  CONFIG.ctrl.NUM_READ_OUTSTANDING {2} \
+  CONFIG.ctrl.NUM_READ_THREADS {1} \
+  CONFIG.ctrl.NUM_WRITE_OUTSTANDING {2} \
+  CONFIG.ctrl.NUM_WRITE_THREADS {1} \
+  CONFIG.ctrl.PHASE {0.000} \
+  CONFIG.ctrl.PROTOCOL {AXI4LITE} \
+  CONFIG.ctrl.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.ctrl.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.ctrl.RUSER_WIDTH {0} \
+  CONFIG.ctrl.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.ctrl.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.ctrl.WUSER_WIDTH {0} \
+  CONFIG.enable_detection {false} \
+  CONFIG.enable_generation {true} \
+  CONFIG.frame_syncs {1} \
+  CONFIG.horizontal_blank_detection {true} \
+  CONFIG.horizontal_blank_generation {true} \
+  CONFIG.horizontal_sync_detection {true} \
+  CONFIG.horizontal_sync_generation {true} \
+  CONFIG.max_clocks_per_line {4096} \
+  CONFIG.max_lines_per_frame {4096} \
+  CONFIG.resetn_intf.INSERT_VIP {0} \
+  CONFIG.resetn_intf.POLARITY {ACTIVE_LOW} \
+  CONFIG.s_axi_aclk_intf.ASSOCIATED_BUSIF {ctrl} \
+  CONFIG.s_axi_aclk_intf.ASSOCIATED_CLKEN {s_axi_aclken} \
+  CONFIG.s_axi_aclk_intf.ASSOCIATED_RESET {s_axi_aresetn} \
+  CONFIG.s_axi_aclk_intf.CLK_DOMAIN {sys_design_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.s_axi_aclk_intf.FREQ_HZ {100000000} \
+  CONFIG.s_axi_aclk_intf.INSERT_VIP {0} \
+  CONFIG.s_axi_aclk_intf.PHASE {0.000} \
+  CONFIG.s_axi_aclken_intf.POLARITY {ACTIVE_LOW} \
+  CONFIG.s_axi_aresetn_intf.INSERT_VIP {0} \
+  CONFIG.s_axi_aresetn_intf.POLARITY {ACTIVE_LOW} \
+  CONFIG.vertical_blank_detection {true} \
+  CONFIG.vertical_blank_generation {true} \
+  CONFIG.vertical_sync_detection {true} \
+  CONFIG.vertical_sync_generation {true} " [get_ips sys_design_v_tc_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  5 14:35:20 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of sys_design_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) from (Rev. 10) to (Rev. 15)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'sys_design_v_axi4s_vid_out_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'sof_state_out'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  5 14:35:20 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_rst_ps7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of sys_design_rst_ps7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  5 14:35:20 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sys_design_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 19) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  5 14:35:20 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of sys_design_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  5 14:35:20 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sys_design_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 6) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  5 14:35:20 2023
+| Host         : Iridescent-zlc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sys_design_axi_smc_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sys_design_axi_smc_0 (xilinx.com:ip:smartconnect:1.0) from (Rev. 10) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection and Interface Information
+---------------------------------------
+
+Connection and Interface information can not be compared for deferred elaboration IPs.
+sys_design_axi_smc_0 may have connection or interface changes.
+
+

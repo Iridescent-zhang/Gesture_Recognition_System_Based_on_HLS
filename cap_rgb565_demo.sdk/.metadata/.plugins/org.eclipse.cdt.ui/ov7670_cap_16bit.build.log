@@ -1,0 +1,8 @@
+20:04:51 **** Incremental Build of configuration Debug for project ov7670_cap_16bit ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+20:04:51 Build Finished (took 207ms)
+
